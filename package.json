@@ -1,5 +1,5 @@
 {
-  "name": "umi-plugin-sentry",
+  "name": "umi-plugin-sentry-environment",
   "version": "0.1.1",
   "description": "umi plugin for sentry w/ environments",
   "main": "lib/index.js",
@@ -21,7 +21,7 @@
     "plugin",
     "umi-plugin"
   ],
-  "author": "Leza Lutonda <lemol-c@hotmail.com> (https://github.com/lemol)",
+  "author": "Nima Boscarino",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/domomi-rentals/umi-plugin-sentry/issues"
