@@ -14,6 +14,7 @@ Sentry.init({
   ...(
     !options.log ? {} : { beforeSend }
   ),
+  ...(options.environment && { environment: options.environment })
 });
 
 export default class SentryBoundary extends Component {
